@@ -1,9 +1,8 @@
-# Traineeship_Project_AMI
-Traineeship code repository
+# Traineeship_Project_AMI repository
 
-#TODO: Project description
+# TODO: Project description
 
-#Prerequisites
+# Prerequisites
 Python libraries:
 * numpy
 * pathlib2
@@ -11,10 +10,8 @@ Python libraries:
 * sklearn
 * time
 
-#Python script
--project.py
-
-#At the moment this file is composed by a a list of functions:
+# Python script
+project.py functions:
 * read_dataset -> inputs: paths of the training and the testing datasets. 
                  returns: the train and test data loaded with pandas 
 * train_var -> input: train_data
@@ -35,22 +32,23 @@ Python libraries:
                        -'red_feat_vector_n_comp_{}.npy'.format(n_comp)
                        -'clustering_parameters_n_clust.npy'.format(n_clust)
 
-*   *Now: tf-idf. If you want you can easly add more or change parameters
+*  *Now: tf-idf. If you want you can easly add more or change parameters
 *  **Now: svd and pca
 *  ***Now: k-means
 
-#Extension to do 
+# Extension to do 
 * setting a limit-parameter on the explained_variance and choose the number of components with it
 * automatic run of the code for a range of explained_variance values
 * saving file txt or excel with ordered results with the parameters changment
 
-#Bash file
+# Bash file
 * main.sh: bash file to run project.py
 
-#Code instructions:
-* download the repository and open main.sh
-* set the current date and the parameters you want to try
-* from your shell go to the directory containing the files:
-* first time: chmod u+x main.sh
+# Code instructions:
+* download the repository 
+* open main.sh
+* set the current date and parameters arguments
+* from your shell go to the directory containing the files
+* first run: chmod u+x main.sh
 * then: ./main.sh
-*see the results 
+* see the results 
