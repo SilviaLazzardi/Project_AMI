@@ -48,9 +48,9 @@ Python libraries:
 * main.sh: bash file to run project.py
 
 #Code instructions:
-*download the repository and open main.sh
-*set the current date and the parameters you want to try
-*from your shell go to the directory containing the files:
-*first time: chmod u+x main.sh
-*then: ./main.sh
+* download the repository and open main.sh
+* set the current date and the parameters you want to try
+* from your shell go to the directory containing the files:
+* first time: chmod u+x main.sh
+* then: ./main.sh
 *see the results 
